@@ -25,12 +25,15 @@ For a different model, also in params.py need to change the following:
 - change of parameters if necessary
 
 
-Once all is configured, simply run the program with preferred IDE or with terminal:
+Once all is configured, simply run the program with preferred IDE or with terminal:  
+
 > python realtime_convolutions.py  
 or  
 > python realtime_neurons.py  
 
-Voila.
+NOTE: If running the visualization on a HOST machine (running Caffe/project on a virtual machine), then you need to connect the host camera to the guest VM. In HOST terminal:
+    > VBoxManage controlvm CNN_Visualization webcam attach .1
+
 
 For any questions or issues, please contact me:  
 tamari.din@gmail.com

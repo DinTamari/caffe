@@ -24,7 +24,30 @@ An example of how the tool can be applied to any general Caffe trained model.
 
 For any questions or issues, please contact me:  
 tamari.din@gmail.com
-
+ 
+## Installation
+ 1. Install Caffe (see Installation Instructions link below)  
+ Note: current project does not need GPU
+ 2. Fork this project, project files under caffe/CNN_Realtime_Visualization
+ 3. For an all-in-one package of Caffe with project (all dependencies included, see links below)
+ 
+## Links to download directory or fully complete plug-n-play Virtual Machine 
+ 1. [Code link] (https://drive.google.com/file/d/0B4_dxv3bboi8TWRKbFBpNjNLN2s/view) (.zip file)
+ 2. For Virtual Machine:
+    a. Download & Install: 
+         i. Oracle VM VirtualBox Manager
+         ii. Oracle VM VirtualBox Extension Pack below  
+         http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html
+    b. [Download project VM] (https://drive.google.com/file/d/0B4_dxv3bboi8OWNWMWJhYm53WEk/view?usp=sharing)
+    c. Import virtual machine and start project:  
+                                        Username: Guest  
+                                        Password: 12345678
+    d. Find files under Desktop/caffe/CNN_Visualization
+    e. In order to use webcam, in HOST terminal  
+ > VBoxManage controlvm CNN_Visualization webcam attach .1
+    f. See visualization folder README for instructions to run files
+     
+ 
 
 ----------------------------------------------------------------------------------------------------------
 
