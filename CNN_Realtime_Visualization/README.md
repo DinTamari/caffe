@@ -44,13 +44,15 @@ tamari.din@gmail.com
          i. Oracle VM VirtualBox Manager
          ii. Oracle VM VirtualBox Extension Pack below  
          http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html  
-    b. Download project VM: https://drive.google.com/file/d/0B4_dxv3bboi8OWNWMWJhYm53WEk/view?usp=sharing  
+    b. Download project VM:  
+ Google Drive: https://drive.google.com/file/d/0B4_dxv3bboi8OWNWMWJhYm53WEk/view?usp=sharing  
+ Dropbox: https://www.dropbox.com/s/1p7clzmn3yix30q/CNN_Visualization.ova?dl=0  
     c. Import virtual machine and start project:  
                                         Username: Guest  
                                         Password: 12345678  
     d. Find files under Desktop/caffe/CNN_Visualization  
     e. In order to use webcam, in HOST terminal  
- > VBoxManage controlvm CNN_Visualization webcam attach .1  
+        VBoxManage controlvm CNN_Visualization webcam attach .1  
     f. See visualization folder README for instructions to run files  
      
  
