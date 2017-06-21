@@ -18,8 +18,14 @@ Two visualizations made available:
 ## Other folder:
 Contains two further applications using the visualization tool:
 1. mnist_video_example: taking a predefined set of images, on which the tool is run. Instructions on how to create a short gif for them. Allows to interpret features and patterns of a specific class of input.
-2. face_example: using ETH Vision's model for face-age detection, running the tool on the convolutions.
+2. face_example: using ETH Vision's model for face-age detection, running the tool on images, displaying 4 convolutional layers.  
 An example of how the tool can be applied to any general Caffe trained model.
+ 
+# GeneratedGIFS folder: Visualization animations
+A few gif animations done over a predefined set of images. Two for digits, one for face-age classification.  
+See other/mnist_video_example for instructions on producing figure gifs, other/face_example for the face-age
+classification. 
+
 
 
 For any questions or issues, please contact me:  
@@ -33,7 +39,7 @@ tamari.din@gmail.com
  
 ## Links to download directory or fully complete plug-n-play Virtual Machine 
  1. Code link: (https://drive.google.com/file/d/0B4_dxv3bboi8TWRKbFBpNjNLN2s/view) (.zip file)
- 2. For Virtual Machine:  
+ 2. For Virtual Machine (note: big .ova file (7.5GB)):  
     a. Download & Install: 
          i. Oracle VM VirtualBox Manager
          ii. Oracle VM VirtualBox Extension Pack below  
