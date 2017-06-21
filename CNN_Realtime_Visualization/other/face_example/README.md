@@ -1,7 +1,6 @@
-# See other README's below
+(See citations belows)
 
-# Convolutional Neural Network
-# Visualization of a Realtime Classifier
+# Convolutional Neural Network Visualization of a Realtime Classifier
 
 Din Tamari
 Bachelor Project, USI Lugano, 2017
