@@ -1,10 +1,10 @@
 
 # Convolutional Neural Network Visualization of a Realtime Classifier
 
-Din Tamari
-Bachelor Project, USI Lugano, 2017
-Advisor: Luca Gambardella
-Tutor/Assistant: Alessandro Giusti
+Din Tamari  
+Bachelor Project, USI Lugano, 2017  
+Advisor: Luca Gambardella  
+Tutor/Assistant: Alessandro Giusti  
 
 
 ## Visualization folder:
@@ -26,13 +26,13 @@ For a different model, also in params.py need to change the following:
 
 
 Once all is configured, simply run the program with preferred IDE or with terminal:
-> python realtime_convolutions.py
-or
-> python realtime_neurons.py
+> python realtime_convolutions.py  
+or  
+> python realtime_neurons.py  
 
 Voila.
 
-For any questions or issues, please contact me:
+For any questions or issues, please contact me:  
 tamari.din@gmail.com
 
 

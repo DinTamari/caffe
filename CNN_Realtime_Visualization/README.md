@@ -2,17 +2,17 @@
 
 # Convolutional Neural Network Visualization of a Realtime Classifier
 
-Din Tamari
-Bachelor Project, USI Lugano, 2017
-Advisor: Luca Gambardella
-Tutor/Assistant: Alessandro Giusti
+Din Tamari  
+Bachelor Project, USI Lugano, 2017  
+Advisor: Luca Gambardella  
+Tutor/Assistant: Alessandro Giusti  
 
 
 ## Visualization folder:
 Current files provide a fully ready-to-go demo using the MNIST LeNet Caffe model.
 Two visualizations made available:
-    - Version 1: General, showing both convolutional and fc layers : realtime_convolutions.py
-    - Version 2: Sorted FC Neurons by Weight : realtime_neurons.py
+- Version 1: General, showing both convolutional and fc layers : realtime_convolutions.py
+- Version 2: Sorted FC Neurons by Weight : realtime_neurons.py
 
 
 ## Other folder:
@@ -22,7 +22,7 @@ Contains two further applications using the visualization tool:
 An example of how the tool can be applied to any general Caffe trained model.
 
 
-For any questions or issues, please contact me:
+For any questions or issues, please contact me:  
 tamari.din@gmail.com
 
 
