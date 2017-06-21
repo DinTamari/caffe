@@ -1,0 +1,15 @@
+After running digit_plots_video_run.py and obtaining a set of plot figures.
+
+To process figures and make into gif:
+
+In terminal on folder path (Linux):
+
+The following takes an image and chops off the right side by 200 pixels
+convert  input_name.jpg -gravity East -chop 200x0 output_name.jpg
+
+To do it for a whole bunch of images (from the current directory) and have the chopped out ones placed in the directory /chopped (need to specify file format: can convert to .png at this step!)
+mogrify -path /chopped -format jpg -gravity East -chop 200x0 *.jpg
+
+When done, to make the gif animation of all .jpg files in folder, with delay 40ms between each and loop 0 (= continue to loop):
+convert -delay 40 -loop 0 *.jpg outputname.gif
+
